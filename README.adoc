@@ -34,6 +34,13 @@ mvn clean install -DskipTests
 * `microservice-speaker` : TBC
 * `microservice-vote` : TBC
 
+=== Run Services in Liberty
+
+* `microservice-schedule`: TBC
+* `microservice-session` : mvn package liberty:run-server -pl :microservice-session available on http://localhost:9080/sessions
+* `microservice-speaker` : TBC
+* `microservice-vote` : TBC
+
 === Run UI
 
 .Console 1
